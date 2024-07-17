@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 300vh;
+}
+
+.height {
+    height: 90px;
+}
+
+.background {
+    height: 85vh;
+    background: linear-gradient(-180deg, rgb(232, 231, 231), rgb(237, 235, 235), rgb(183, 183, 183));
+}
+
+.top {
+    top: -30px;
+}
+
+.icon1 .span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    background-color: red;
+    color: white;
+    border-radius: 50px;
+    font-size: x-small;
+    left: 17px;
+    top: 0px;
+
+}
+
+ul li {
+    transform: 1s ease;
+}
+
+ul li:hover {
+    color: red;
+    transform: 1s ease;
+
+}
+
+.main-content {
+    width: 70%;
+    position: relative;
+    height: 70%;
+    top: -30px;
+}
+
+.wrapper {
+    width: 80%;
+    height: 100%;
+}
+
+.menubar {
+    display: inline;
+    /* display: none; */
+
+}
+
+.line {
+    width: 50px;
+    height: 5px;
+    background-color: #000;
+    border-radius: 50px;
+    margin-top: 8px;
+    display: flex;
+    left: 0px;
+    position: relative;
+    transition: .2s ease;
+}
+
+.line1 {
+    top: 13px;
+    rotate: 45deg;
+    width: 45px;
+
+}
+
+.line2 {
+    opacity: 0;
+}
+
+.line3 {
+    bottom: 14px;
+    rotate: -45deg;
+    width: 45px;
+
+}
+
+.menuitems {
+    height: 0px;
+    overflow: hidden;
+    transition: .3s ease;
+
+}
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.blocked {
+    height: 317px;
+}
+
+@media screen and (max-width: 768px) {
+    img .top {
+        top: 30px;
+    }
+
+    .main-content {
+        width: 100%;
+
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+}
+
+.div1 {
+    position: absolute;
+    height: 700px;
+    width: 1050px;
+    border-radius: 350%;
+    border: 2px solid white;
+    rotate: -20deg;
+    top: 10px;
+    left: -770px;
+}
+
+.div2 {
+    position: absolute;
+    height: 700px;
+    width: 1160px;
+    border-radius: 350%;
+    border: 2px solid white;
+    rotate: -30deg;
+    top: 40px;
+    left: -800px;
+}
+
+.image {
+    position: absolute;
+    width: 40%;
+    left: 48%;
+    z-index: 3;
+}
+
+.div3 {
+    width: 300px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(46, 46, 46);
+    box-shadow: 0px 0px 30px 30px rgb(46, 46, 46);
+    opacity: 0.2px;
+    position: absolute;
+    left: 57%;
+    z-index: 2;
+    bottom: 60px;
+}
+
+.shado {
+    filter: drop-shadow(40px 20px 20px rgb(255, 255, 255));
+}
+
+.main3 {
+    width: 830px;
+    height: 400px;
+}
+
+.main3::-webkit-scrollbar {
+    height: 5px;
+
+}
+
+.main3::-webkit-scrollbar-thumb {
+    background-color: purple;
+
+}
+
+.main3::-webkit-scrollbar-track {
+    background-color: rgb(234, 200, 234);
+}
+
+.box {
+    min-width: 260px;
+    height: 350px;
+}
+
+.btn:hover {
+    background-color: rgb(189, 3, 3);
+    color: white;
+    border: none;
+}
+
+.contain {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    /* grid-template-rows: auto; */
+    grid-gap: 10px;
+    padding: 1em;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.contain .boxes {
+    background-color: rgb(250, 198, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56vh;
+
+}
+
+.boxes2 {
+    /* background-color: rgb(175, 178, 149); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    margin-top: 40px;
+}
+
+.box1 {
+    height: 40%;
+    width: 25%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 100px;
+    color: white;
+}
+
+.box2 {
+    height: 50%;
+    width: 65%;
+}
+
+.box2 span {
+    font-size: 20px;
+
+}
+
+.boxe5 {
+    height: 40px;
+    width: 40px;
+    background-color: grey;
+    margin: 15px 10px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width: 500px) {
+    .full {
+        width: 100% !important;
+    }
+}

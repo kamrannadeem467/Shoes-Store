@@ -1,0 +1,507 @@
+<!-- https://www.google.com/imgres?q=fancy%20online%20store%20template&imgurl=https%3A%2F%2Fthemefisher.com%2Fblog%2Fflipmart.webp&imgrefurl=https%3A%2F%2Fthemefisher.com%2Fecommerce-website-templates&docid=gGj2HiqSaqQ3QM&tbnid=5e-ChROEKxZe-M&vet=12ahUKEwjThtKK15-HAxW13QIHHWB0DFsQM3oECE0QAA..i&w=900&h=600&hcb=2&ved=2ahUKEwjThtKK15-HAxW13QIHHWB0DFsQM3oECE0QAA -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css
+    ">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js
+    "></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- header start -->
+        <div class="row bg-white">
+            <div class="col-12 border d-flex justify-content-between align-items-center height">
+                <h1 class="ps-5"><span class="text-danger">F</span>ootcap</h1>
+                <ul class="d-md-flex list-unstyled fw-medium column-gap-4 mt-3 d-none" style="cursor: pointer;">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Product</li>
+                    <li>Shop</li>
+                    <li>Blog</li>
+                    <li>Contact</li>
+                </ul>
+                <div class="icons me-3 d-md-flex column-gap-3 fs-4 d-none">
+                    <div class="icon1"><i class='bx bx-search'></i></div>
+                    <div class="icon1  position-relative"><i class='bx bx-heart'></i><span class="span">1</span></div>
+                    <div class="icon1"><i class='bx bx-lock-alt'></i></div>
+
+                </div>
+                <div class="col-sm-2 d-flex justify-content-end d-md-none" style="max-width: 200px;">
+                    <div class="menubar">
+                        <div id="line1" class="line"></div>
+                        <div id="line2" class="line"></div>
+                        <div id="line3" class="line"></div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+        <div class="menuitems">
+            <div class="row">
+                <div class="col-12">
+                    <nav id="row" class="navbar gap-4 flex-column">
+                        <a class="home" href="#Home" onclick="menu1()">Home</a>
+                        <a class="about" href="#about" onclick="menu1()">About</a>
+                        <a class="about" href="#product" onclick="menu1()">Product</a>
+                        <a class="skills" href="#shop" onclick="menu1()">Shop</a>
+                        <a class="portfolio" href="#blog" onclick="menu1()">Blog</a>
+                        <a class="contact" href="#contact" onclick="menu1()">Contact</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- header End -->
+        <!-- slider start  -->
+        <div class="row position-relative background">
+            <img class="position-absolute w-75 opacity-25 top d-none d-md-block" src="../images/banner.png" alt="">
+            <img class="image align-self-center d-none d-md-block" src="../images/shoes (3).png" alt="">
+            <div class="div3 opacity-50 align-self-end  d-none d-md-block">s</div>
+            <div class="col-md-8 d-flex justify-content-center align-items-center">
+                <div class="main-content">
+                    <div class="wrapper d-flex flex-column justify-content-center">
+                        <p class="fs-2 mb-0">New Summer</p><span class="fw-bold fs-1">Shoes Collection</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis non nihil, hic exercitationem
+                            ipsa deserunt commodi doloribus iusto, nobis voluptatum consectetur explicabo autem aperiam
+                            eaque quibusdam, architecto quis itaque sunt!</p>
+                        <button type="button" class="btn btn-danger" style="width: 50%;">Shop Now &#8594;</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-4 d-none d-md-block overflow-hidden position-relative"
+                style="background-color: rgb(42, 99, 135);">
+                <div class="div1"></div>
+                <div class="div2"></div>
+            </div>
+        </div>
+        <!-- slider End  -->
+        <!-- cards start  -->
+        <div class="container-lg">
+            <div class="row row-gap-3 my-5 d-flex justify-content-around">
+                <div class="col-sm-3 " style="background-color: rgb(208, 255, 208);">
+                    <p class="mb-0 d-flex justify-content-center" style="height: 50px; align-items: center;"><b>MEN
+                            COLLECTION</b></p>
+                    <div class="imag d-flex justify-content-center">
+                        <img class=" shado" style="width: 160px; margin-bottom: 10px;" src="../images/shoes (7).png" alt="">
+                    </div>
+                    <p class=" text-center">
+                        <button class="btn border-black w-50 rounded-0 ">Explore All &#8594;</button>
+                    </p>
+                </div>
+                <div class="col-sm-3" style="background-color: rgb(255, 236, 239);">
+                    <p class="mb-0 d-flex justify-content-center" style="height: 50px; align-items: center;"><b>MEN
+                            COLLECTION</b></p>
+                    <div class="imag d-flex justify-content-center">
+                        <img class="w-50 shado" src="../images/shoes (2).png" alt="">
+                    </div>
+                    <p class=" text-center">
+                        <button class="btn border-black w-50 rounded-0 ">Explore All &#8594;</button>
+                    </p>
+                </div>
+                <div class="col-sm-3" style="background-color: rgb(250, 198, 250);">
+                    <p class="mb-0 d-flex justify-content-center" style="height: 50px; align-items: center;"><b>MEN
+                            COLLECTION</b></p>
+                    <div class="imag d-flex justify-content-center">
+                        <img class="w-50 shado" src="../images/shoes (8).png" alt="">
+                    </div>
+                    <p class=" text-center">
+                        <button class="btn border-black w-50 rounded-0 ">Explore All &#8594;</button>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        <!-- cards End  -->
+        <!-- prodcut start  -->
+        <div class="container-lg">
+            <div class="row fs-3 fw-bold">
+                <div class="col text-center">Bestsellers Products</div>
+            </div>
+            <div class="row">
+                <div class="col  text-center mt-4">
+                    <button class="btn btn-close-white border rounded-5 px-3 mx-1">All</button>
+                    <button class="btn btn-close-white border rounded-5 px-3 mx-1">Nike</button>
+                    <button class="btn btn-close-white border rounded-5 px-3 mx-1">Adidas</button>
+                    <button class="btn btn-close-white border rounded-5 px-3 mx-1">Puma</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="contain">
+                    <div class="boxes d-flex flex-column align-items-center">
+                        <div class="imag">
+                            <img style="max-width: 245px;" src="../images/shoes (1).png">
+                        </div>
+                        <div class="content mt-3 bg-white d-flex flex-column justify-content-center align-items-center"
+                            style="width: 100%; line-height: 50%; height: 100px; position: relative; top: 50px;">
+                            <p><span>Men</span>/ <span>Women</span></p>
+                            <p>Running sneaker shoes</p>
+                            <div class="price">
+                                $195.85
+                            </div>
+                        </div>
+                    </div>
+                    <div class="boxes d-flex flex-column align-items-center">
+                        <div class="imag">
+                            <img style="max-width: 165px;" src="../images/shoes (2).png">
+                        </div>
+                        <div class="content mt-3 bg-white d-flex flex-column justify-content-center align-items-center"
+                            style="width: 100%; line-height: 50%; height: 100px; position: relative; top: 50px;">
+                            <p><span>Men</span>/ <span>Women</span></p>
+                            <p>Running sneaker shoes</p>
+                            <div class="price">
+                                $195.85
+                            </div>
+                        </div>
+                    </div>
+                    <div class="boxes d-flex flex-column align-items-center">
+                        <div class="imag">
+                            <img style="max-width: 200px;" src="../images/shoes (3).png">
+                        </div>
+                        <div class="content mt-3 bg-white d-flex flex-column justify-content-center align-items-center"
+                            style="width: 100%; line-height: 50%; height: 100px; position: relative; top: 50px;">
+                            <p><span>Men</span>/ <span>Women</span></p>
+                            <p>Running sneaker shoes</p>
+                            <div class="price">
+                                $195.85
+                            </div>
+                        </div>
+                    </div>
+                    <div class="boxes d-flex flex-column align-items-center">
+                        <div class="imag">
+                            <img style="max-width: 200px; height: 165px;" src="../images/shoes (4).png">
+                        </div>
+                        <div class="content mt-3 bg-white d-flex flex-column justify-content-center align-items-center"
+                            style="width: 100%; line-height: 50%; height: 100px; position: relative; top: 50px;">
+                            <p><span>Men</span>/ <span>Women</span></p>
+                            <p>Running sneaker shoes</p>
+                            <div class="price">
+                                $195.85
+                            </div>
+                        </div>
+                    </div>
+                    <div class="boxes d-flex flex-column align-items-center">
+                        <div class="imag">
+                            <img style="max-width: 230px;" src="../images/shoes (5).png">
+                        </div>
+                        <div class="content mt-3 bg-white d-flex flex-column justify-content-center align-items-center"
+                            style="width: 100%; line-height: 50%; height: 100px; position: relative; top: 50px;">
+                            <p><span>Men</span>/ <span>Women</span></p>
+                            <p>Running sneaker shoes</p>
+                            <div class="price">
+                                $195.85
+                            </div>
+                        </div>
+                    </div>
+                    <div class="boxes d-flex flex-column align-items-center">
+                        <div class="imag">
+                            <img style="max-width: 200px;" src="../images/shoes (6).png">
+                        </div>
+                        <div class="content mt-3 bg-white d-flex flex-column justify-content-center align-items-center"
+                            style="width: 100%; line-height: 50%; height: 100px; position: relative; top: 50px;">
+                            <p><span>Men</span>/ <span>Women</span></p>
+                            <p>Running sneaker shoes</p>
+                            <div class="price">
+                                $195.85
+                            </div>
+                        </div>
+                    </div>
+                    <div class="boxes d-flex flex-column align-items-center">
+                        <div class="imag">
+                            <img style="max-width: 200px;" src="../images/shoes (7).png">
+                        </div>
+                        <div class="content mt-3 bg-white d-flex flex-column justify-content-center align-items-center"
+                            style="width: 100%; line-height: 50%; height: 100px; position: relative; top: 50px;">
+                            <p><span>Men</span>/ <span>Women</span></p>
+                            <p>Running sneaker shoes</p>
+                            <div class="price">
+                                $195.85
+                            </div>
+                        </div>
+                    </div>
+                    <div class="boxes d-flex flex-column align-items-center">
+                        <div class="imag">
+                            <img style="max-width: 200px; height: 150px;" src="../images/shoes (8).png">
+                        </div>
+                        <div class="content mt-3 bg-white d-flex flex-column justify-content-center align-items-center"
+                            style="width: 100%; line-height: 50%; height: 100px; position: relative; top: 50px;">
+                            <p><span>Men</span>/ <span>Women</span></p>
+                            <p>Running sneaker shoes</p>
+                            <div class="price">
+                                $195.85
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- prodcut End  -->
+        <!-- banner start -->
+        <div class="container">
+            <div class="row gap-5">
+                <div class="col-md text-white py-4"
+                    style="background: url(../images/download.jfif); background-repeat: no-repeat; background-size: cover; ">
+                    <div class="main">
+                        <div class="wrapper d-flex flex-column justify-content-center">
+                            <p class="fs-5 ps-5 mb-0">Adidas Shoes <br><span class="fw-bold fs-1">The summer sale off
+                                    50%</span></p>
+                            <button type="button" class="btn text-white w-50">Shop Now &#8594;</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md text-white py-4"
+                    style="background: url(../images/banner-with-new-pair-of-white-sneakers-isolated-on-light-yellow-and-orange-background-sportive-pair-of-shoes-for-mockup-fashionable-stylish-sports-casual-shoes-photo.jpg); background-repeat: no-repeat; background-size: cover; ">
+                    <div class="main">
+                        <div class="wrapper d-flex flex-column justify-content-center">
+                        <p class="fs-5 ps-5 mb-0">Nike Shoes <br><span class="fw-bold fs-1">Make Yourself Keep Sportly
+                                </span></p>
+                            <button type="button" class="btn text-white w-50">Shop Now &#8594;</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- banner End -->
+        <!-- special product start  -->
+        <div class="container pt-5">
+            <div class="row mt-5">
+                <div class="col-5 col-md-4 full bg-black text-white d-flex flex-column justify-content-evenly align-items-center position-relative">
+                    <p class="mb-0 d-flex justify-content-center" style="height: 100px; align-items: center;"><b>New Trend Edition</b></p>
+                    <div class="imag d-flex justify-content-center" style="border: 4px solid white; margin: 0px 30px; width: 200px; height: 250px;">
+                        <img class="w-75 position-absolute" style="height: 300px; bottom: 80px;" src="../images/brandshoes.png" alt="">
+                    </div>
+                    <p class=" text-center">
+                        <button class="btn rounded-0 text-white" style="border-bottom: 1px solid white;">Explore All &#8594;</button>
+                    </p>
+                </div>
+
+                <div class="col-sm-6 col-md-8">
+                    <div class="head">
+                        <p class="fs-4"><b>NIKE SPECIAL</b>
+                            <hr>
+                        </p>
+                    </div>
+                    <div class="col-md-12 gap-3 d-flex overflow-scroll" style="height: 400px;">
+                        <div class="box ms-2">
+                            <div class="img d-flex justify-content-center align-items-center"
+                                style="width: 100%; height: 80%; background-color: rgb(243, 215, 239);">
+                                <img class="w-75" src="../images/shoes (4).png" alt="">
+                            </div>
+                            <div class="bara-dabba d-flex flex-column justify-content-center align-items-center">
+                                <div class="text">Men/Sports</div>
+                                <div class="heading fs-4">lether men slipper</div>
+                                <div class="price" style="color: red;">$190.5</div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="img d-flex justify-content-center align-items-center"
+                                style="width: 100%; height: 80%; background-color: rgb(243, 215, 239);">
+                                <img class="w-75" src="../images/shoes (4).png" alt="">
+                            </div>
+                            <div class="bara-dabba d-flex flex-column justify-content-center align-items-center">
+                                <div class="text">Men/Sports</div>
+                                <div class="heading fs-4">lether men slipper</div>
+                                <div class="price" style="color: red;">$190.5</div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="img d-flex justify-content-center align-items-center"
+                                style="width: 100%; height: 80%; background-color: rgb(243, 215, 239);">
+                                <img class="w-75" src="../images/shoes (4).png" alt="">
+                            </div>
+                            <div class="bara-dabba d-flex flex-column justify-content-center align-items-center">
+                                <div class="text">Men/Sports</div>
+                                <div class="heading fs-4">lether men slipper</div>
+                                <div class="price" style="color: red;">$190.5</div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="img d-flex justify-content-center align-items-center"
+                                style="width: 100%; height: 80%; background-color: rgb(243, 215, 239);">
+                                <img class="w-75" src="../images/shoes (4).png" alt="">
+                            </div>
+                            <div class="bara-dabba d-flex flex-column justify-content-center align-items-center">
+                                <div class="text">Men/Sports</div>
+                                <div class="heading fs-4">lether men slipper</div>
+                                <div class="price" style="color: red;">$190.5</div>
+                            </div>
+                        </div>
+                        <div class="box me-2">
+                            <div class="img d-flex justify-content-center align-items-center"
+                                style="width: 100%; height: 80%; background-color: rgb(243, 215, 239);">
+                                <img class="w-75" src="../images/shoes (4).png" alt="">
+                            </div>
+                            <div class="bara-dabba d-flex flex-column justify-content-center align-items-center">
+                                <div class="text">Men/Sports</div>
+                                <div class="heading fs-4">lether men slipper</div>
+                                <div class="price" style="color: red;">$190.5</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- special product End  -->
+        <!-- policies start -->
+        <div class="container-lg">
+            <div class="contain">
+                <div class="boxes2">
+                    <div class="box1">
+                        <i class='bx bxs-truck'></i>
+                    </div>
+                    <div class="box2 ms-3">
+                        <span class="fw-bold">FREE SHIPING</span>
+                        <p>All order over <span class="text-danger"> $150</span></p>
+                    </div>
+                </div>
+                <div class="boxes2">
+                    <div class="box1">
+                        <i class='bx bx-envelope-open'></i>
+                    </div>
+                    <div class="box2 ms-3">
+                        <span class="fw-bold">QUICK PAYMENT</span>
+                        <p>100% Secure Payment</p>
+                    </div>
+                </div>
+                <div class="boxes2">
+                    <div class="box1">
+                        <i class='bx bx-package'></i>
+                    </div>
+                    <div class="box2 ms-3">
+                        <span class="fw-bold">FREE RETURNS</span>
+                        <p>Money back in 50 days</p>
+                    </div>
+                </div>
+                <div class="boxes2">
+                    <div class="box1">
+                        <i class='bx bxs-watch'></i>
+                    </div>
+                    <div class="box2 ms-3">
+                        <span class=" fw-bold">24/7 SUPPOORT</span>
+                        <p>Get Quick Support</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- policies end -->
+        <!-- footer start  -->
+        <div class="row mb-5">
+            <div class="col-md-8 col-12 fs-1 fw-bold ps-4"><span class="text-danger">F</span>ootcap</div>
+            <div class="col-md-4 col-12 d-flex flex-md-row-reverse">
+                <div class="boxe5"><i class='bx bxl-facebook'></i></div>
+                <div class="boxe5"><i class='bx bxl-whatsapp'></i></div>
+                <div class="boxe5"><i class='bx bxl-instagram'></i></div>
+                <div class="boxe5"><i class='bx bxl-twitter'></i></div>
+            </div>
+        </div>
+        <hr>
+        <div class="row px-4 mb-5">
+            <div class="col-lg-4 col-md-6 col-12 ">
+                <p class=" fw-bold fs-5"><span class="border-bottom border-danger pb-2">Cont</span>act Us</p>
+                <div class="parentbox d-flex gap-3 pt-3 pb-1">
+                    <div class="subbox1"><i class='bx bx-location-plus text-danger fw-bold'></i></div>
+                    <div class="subbox2">c-18 Nafees Banglows</div>
+                </div>
+                <div class="parentbox d-flex gap-3 py-1">
+                    <div class="subbox1"><i class='bx bx-phone-call text-danger fw-bold'></i></div>
+                    <div class="subbox2">+923171****13</div>
+                </div>
+                <div class="parentbox d-flex gap-3 py-1">
+                    <div class="subbox1"><i class='bx bx-envelope text-danger fw-bold'></i></div>
+                    <div class="subbox2">kamrannadeem113@gmail.com</div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6 col-12 ">
+                <p class=" fw-bold fs-5"><span class="border-bottom border-danger pb-2">My </span>Account</p>
+                <div class="parentbox d-flex gap-3 pt-3 pb-1">
+                    <div class="subbox1"><i class="bx bx-chevron-right fs-5"></i></div>
+
+                    <div class="subbox2">My Account</div>
+                </div>
+                <div class="parentbox d-flex gap-3 py-1">
+                    <div class="subbox1"><i class="bx bx-chevron-right fs-5"></i></div>
+                    <div class="subbox2">View Cart</div>
+                </div>
+                <div class="parentbox d-flex gap-3 py-1">
+                    <div class="subbox1"><i class="bx bx-chevron-right fs-5"></i></div>
+                    <div class="subbox2">Wishlist</div>
+                </div>
+                <div class="parentbox d-flex gap-3 py-1">
+                    <div class="subbox1"><i class="bx bx-chevron-right fs-5"></i></div>
+                    <div class="subbox2">New Product</div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 ">
+                <p class=" fw-bold fs-5"><span class="border-bottom border-danger pb-2">Ope</span>ning Timing</p>
+                <div class="parentbox d-flex gap-3 pt-3 pb-1">
+                    <div class="subbox1 fw-bold" style="list-style: none;">
+                        <li>Mon-Tues"</li>
+                        <li>Wed:</li>
+                        <li>fri:</li>
+                        <li>Sat:</li>
+                        <li>Sun:</li>
+                    </div>
+                    <div class="subbox2" style="list-style: none;">
+                        <li>8am-10pm</li>
+                        <li>8am-12pm</li>
+                        <li>7am-7pm</li>
+                        <li>9am-8pm</li>
+                        <li>Closed</li>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <p class=" fw-bold fs-5"><span class="border-bottom border-danger pb-2">New</span>sletter</p>
+                <div class="parentbox gap-3 pt-3 pb-1">
+                    <div class="subbox1">Authoritivley Morph 24/7 potentialities with error freepatherships</div>
+                    <div class="subbox2">
+                        <div class="row mt-3">
+                            <div class="col-8 border"><input type="text" class="py-3" style=" border: none;"
+                                    placeholder="Email Address"></div>
+                            <div class="col-4 bg-danger py-3 fw-bold text-white">Subscribe</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col bg-black py-2 text-white fw-medium text-center">
+                2024 <span class="text-danger">codewithkami</span> All Rights Reserved
+            </div>
+        </div>
+        <!-- footer End  -->
+    </div>
+    <script>
+        let menubar = document.querySelector('.menubar');
+        let home = document.querySelector('#Home');
+        let bod = document.getElementsByClassName('body');
+        // let a = document.getElementsByTagName('');
+        // console.log(a);
+        menubar.addEventListener('click', () => {
+            document.getElementById('line1').classList.toggle('line1')
+            document.getElementById('line2').classList.toggle('line2')
+            document.getElementById('line3').classList.toggle('line3')
+            document.querySelector('.menuitems').classList.toggle('blocked')
+        });
+        function menu1() {
+            home.classList.add("body1")
+            // document.querySelector('.menuitem2').classList.remove('body1')
+
+           document.getElementById('line1').classList.remove('line1')
+           document.getElementById('line2').classList.remove('line2')
+            document.getElementById('line3').classList.remove('line3')
+            document.querySelector('.menuitems').classList.remove('blocked')
+
+        }
+
+    </script>
+</body>
+
+</html>
